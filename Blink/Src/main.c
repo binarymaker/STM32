@@ -102,7 +102,7 @@ int main(void)
   while (1)
   {
 		HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
-		HAL_Delay(500);														 // reduce blink delay
+		HAL_Delay(1000);														 // inc blink delay
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
