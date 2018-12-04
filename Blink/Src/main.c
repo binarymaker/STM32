@@ -101,9 +101,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-		HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
-		HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_1);     // Add one extra pin for blink
-		HAL_Delay(1000);														 // inc blink delay
+    HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
+    HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_1);     // Add one extra pin for blink
+    HAL_Delay(1000);                           // inc blink delay
 
   /* USER CODE END WHILE */
 
